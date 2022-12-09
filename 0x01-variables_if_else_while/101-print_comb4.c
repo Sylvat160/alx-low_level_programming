@@ -22,7 +22,7 @@ if (j > n)
 putchar(i);
 putchar(n);
 putchar(j);
-if (i != 55 || n != 56 || j != 57)
+if (i == 55 && n == 56 && j == 57)
 {
 break;
 }
