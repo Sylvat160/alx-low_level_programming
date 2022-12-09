@@ -7,14 +7,10 @@
 
 int main(void)
 {
-char c;
-for (c = 'a'; c <= 'z'; c++)
+int num;
+for(num = 0; num < 10; num++)
 {
-putchar(c);
-}
-for (c = 'A'; c <= 'Z'; c++)
-{
-putchar(c);
+printf("%d", num);
 }
 putchar('\n');
 return (0);
