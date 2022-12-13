@@ -11,12 +11,12 @@ void print_to_98(int n)
 {
 while (n < 98)
 {
-printf("%i,", n);
+printf("%i, ", n);
 n++;
 }
 while (n > 98)
 {
-printf("%i,", n);
+printf("%i, ", n);
 n--;
 }
 printf("98");
