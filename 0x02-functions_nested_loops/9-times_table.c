@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * times_table - prints the n times table, starting with 0.
+ * times_table - prints the 9 times table, starting with 0
  * Return: the absolute value of int 
  */
 
