@@ -5,7 +5,7 @@
  * Return: the absolute value of int esdfsd
  */
 
-void print_times_table(void)
+void times_table(void)
 {
 int a = 0;
 int b;
