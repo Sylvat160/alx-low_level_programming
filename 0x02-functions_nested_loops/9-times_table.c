@@ -37,7 +37,7 @@ _putchar(' ');
 }
 b++;
 }
-_putchar('\n')
+_putchar('\n');
 a++;
 }
 }
