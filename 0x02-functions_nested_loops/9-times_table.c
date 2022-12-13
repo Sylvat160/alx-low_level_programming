@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * print_times_table - prints the n times table, starting with 0.
+ * times_table - prints the n times table, starting with 0.
  * Return: the absolute value of int 
- * @void : the number to check
  */
 
 void times_table(void)
