@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - Entry point
- * Return Always 0 (Success)
+ * main - causes an infinite loop
+ * Return: 0 when the code works
  */
 
 int main(void)
