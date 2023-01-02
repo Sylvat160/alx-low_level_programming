@@ -12,16 +12,16 @@
 char *_strpbrk(char *s, char *accept)
 {
 unsigned int i, j;
-for (j = 0; *(s + j); j++)
+for (i = 0; *(s + i); i++)
 {
-for (i = 0; *(accept + i); i++)
+for (j = 0; *(accept + j); j++)
 {
-if (*(s + j) == *(accept + i))
+if (*(s + i) == *(accept + j))
 {
 break;
 }
 }
-if (*(accept + i) != '\0')
+if (*(accept + j) != '\0')
 {
 return (s + i);
 }
