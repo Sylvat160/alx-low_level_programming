@@ -4,18 +4,19 @@
 /**
  * _memset - fills memory with a constant byte
  * @s: pointer to memory area
- * @c: constant byte
+ * @b: constant byte
  * @n: number of bytes to fill
  * Return: pointer to memory area s
  */
 
-char *_memset(void *s, int c, size_t n)
+char *_memset(char *s, char b, unsigned int n)
 {
-unsigned int index;
-unsigned char *memory = s, value = c;
-for (index = 0; index < n; index++)
+unsigned int i = 0;
+while (i < n)
 {
-memory[index] = value;
+*(s + i) = b;
+i++;
 }
-return (memory);
+
+return (s);
 }
