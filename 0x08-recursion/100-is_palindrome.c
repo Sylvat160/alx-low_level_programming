@@ -8,10 +8,11 @@
 
 int _lenght(char *s)
 {
-if (*s)
+if (*s == '\0')
 {
-return (1 + _lenght(s + 1));
+return (0);
 }
+return (1 + _lenght(s + 1));
 }
 
 /**
