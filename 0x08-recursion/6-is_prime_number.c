@@ -4,7 +4,7 @@
  * helperFunction - helper function for is_prime_number
  * @num: number to be checked
  * @i: potential divisor
- * Return 1 if num is prime, 0 otherwise
+ * Return: 1 if num is prime, 0 otherwise
  */
 
 int helperFunction(int num, int i)
