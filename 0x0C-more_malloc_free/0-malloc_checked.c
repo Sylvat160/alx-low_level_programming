@@ -1,11 +1,9 @@
-#include "main.h"
 #include <stdlib.h>
-#include <stdio.h>
 
 /**
  * malloc_checked - allocates memory using malloc
- * @b: size of the memory to print
- * Return: pointer to the concatenated string
+ * @b: size of memory to allocate
+ * Return: pointer to allocated memory
  */
 
 void *malloc_checked(unsigned int b)
@@ -17,3 +15,4 @@ exit(98);
 }
 return (p);
 }
+
