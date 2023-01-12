@@ -1,5 +1,4 @@
 #include <stdlib.h>
-#include <stdlib.h>
 
 /**
  * _strlen - returns the length of a string
@@ -37,7 +36,6 @@ if (num < 0)
 {
 return (NULL);
 }
-if (num >= _strlen(s2))
 if (num >= _strlen(s2))
 {
 num = _strlen(s2);
