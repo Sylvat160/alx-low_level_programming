@@ -1,4 +1,5 @@
 #include "variadic_functions.h"
+#include "2-print_strings.c"
 
 /**
  * main - for check the code
@@ -7,7 +8,6 @@
 
 int main(void)
 {
-    // print_numbers(", ", 4, 0, 98, -1024, 402);
-    sum_them_all(2, 98, 1024);
+    print_numbers(", ", 4, 0, 98, -1024, 402);
     return (0);
 }
