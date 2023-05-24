@@ -16,14 +16,3 @@ def island_perimeter(grid):
                     e += 1
             
     return s * 4 - e * 2
-
-
-grid = [
-        [0, 0, 0, 0, 0, 0],
-        [0, 1, 0, 0, 0, 0],
-        [0, 1, 0, 0, 0, 0],
-        [0, 1, 1, 1, 0, 0],
-        [0, 0, 0, 0, 0, 0]
-    ]
-
-print(island_perimeter(grid))
