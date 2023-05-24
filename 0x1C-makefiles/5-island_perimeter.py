@@ -4,7 +4,7 @@
 
 def island_perimeter(grid):
     """args: grid: list of list of integers"""
-    
+
     width = len(grid[0])
     height = len(grid)
     edges = 0
